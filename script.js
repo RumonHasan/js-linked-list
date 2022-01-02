@@ -70,8 +70,16 @@ class LinkedList {
     removeLast(){
         let previous;
         let node;
+        // reference points
         node = this.head.next;
         previous = this.head;
+
+        // if there is only one head;
+        if(!node){
+            this.head = null;
+            this.size -= 1;
+            return;
+        }
 
         while(node.next){
             previous = node;
@@ -79,6 +87,7 @@ class LinkedList {
         }
         // deleting the last node after the previous node becomes the second last one
         previous.next = null;
+        this.size -= 1;
     }
 
     // removing the first element
