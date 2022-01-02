@@ -66,6 +66,29 @@ class LinkedList {
         this.size++
     }
 
+    // removing the last element
+    removeLast(){
+        let previous;
+        let node;
+        node = this.head.next;
+        previous = this.head;
+
+        while(node.next){
+            previous = node;
+            node = node.next;
+        }
+        // deleting the last node after the previous node becomes the second last one
+        previous.next = null;
+    }
+
+    // removing the first element
+    removeFirst(){
+        let current;
+        current = this.head;
+        this.head = current.next;
+        this.size = this.size - 1;
+    }
+
     // get a specific value from an index 
     getAtIndex(index){
         let current;
@@ -130,7 +153,7 @@ linkedList.insertFirstNode(300);
 linkedList.insertLast(400);
 linkedList.insertAt(350,2);
 
-linkedList.removeAtIndex(2);
+linkedList.removeLast();
 
 linkedList.getAtIndex(3);
 

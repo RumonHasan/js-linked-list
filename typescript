@@ -74,4 +74,156 @@ data at index [33m400[39m
 [33m200[39m
 [33m100[39m
 [33m400[39m
-[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hggit push    add .[?2004l
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hggit commit -m 'l [Kiinked   i [K[A[65C[K[1B[K[A[65C 'l [Kiinked-list-methods'[?2004l
+[main b17c7ee] linked-list-methods
+ 2 files changed, 143 insertions(+), 2 deletions(-)
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hggit push[?2004l
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.56 KiB | 1.56 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/RumonHasan/js-linked-list.git
+   83a3f4a..b17c7ee  main -> main
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+data at index [33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnndoe  n  nnode sscr   cript[?2004l
+data at index [33m400[39m
+[33m300[39m
+[33m200[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+data at index [33m400[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+[33m5[39m
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnndoe script        n node script[?2004l
+/Users/rumonhasan/Desktop/js-linked-list/script.js:78
+            current = current.next;
+                              ^
+
+TypeError: Cannot read properties of null (reading 'next')
+    at LinkedList.removeLast (/Users/rumonhasan/Desktop/js-linked-list/script.js:78:31)
+    at Object.<anonymous> (/Users/rumonhasan/Desktop/js-linked-list/script.js:155:12)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1101:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnndoe scr     n node script[?2004l
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+/Users/rumonhasan/Desktop/js-linked-list/script.js:81
+        console.log(prev);
+                    ^
+
+ReferenceError: prev is not defined
+    at LinkedList.removeLast (/Users/rumonhasan/Desktop/js-linked-list/script.js:81:21)
+    at Object.<anonymous> (/Users/rumonhasan/Desktop/js-linked-list/script.js:156:12)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1101:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+Node { data: [33m400[39m, next: [1mnull[22m }
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+[1mnull[22m
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+Node { data: [33m400[39m, next: [1mnull[22m }
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+Node { data: [33m100[39m, next: Node { data: [33m400[39m, next: [1mnull[22m } }
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script [?2004l
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+/Users/rumonhasan/Desktop/js-linked-list/script.js:72
+        node = this.head.next;
+             ^
+
+ReferenceError: node is not defined
+    at LinkedList.removeLast (/Users/rumonhasan/Desktop/js-linked-list/script.js:72:14)
+    at Object.<anonymous> (/Users/rumonhasan/Desktop/js-linked-list/script.js:154:12)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1101:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hn sscs  nnode script[?2004l
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hi ggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hv ggit commit -m 'f [Kiinal  i [K[A[65C[K[1B[K[A[65C [?2004l[1Berror: switch `m' requires a value
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hggi c t commit -m 'f [Kiina i [K[A[65C[K[1B[K[A[65C[?2004l[1B[0m[27m[24m[Jquote> [K[?2004hg [?2004l
+[0m[27m[24m[Jquote> [K[?2004h[?2004l
+[0m[27m[24m[Jquote> [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hggtg git commit -m "f [Kiinal[?2004l
+[0m[27m[24m[Jdquote> [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hiiti  ggit add.  .[?2004l
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hggit push[?2004l
+Everything up-to-date
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hggit commit -m "f [K
