@@ -11,7 +11,7 @@ class LinkedList {
         this.size = 0;
     }
 
-    // insert first node
+    // insert first node from top to bottom from the head of the list 
     insertFirstNode(data){
         this.head = new Node(data, this.head); // inserts the data value and defaults head to null
         this.size++;
@@ -43,14 +43,73 @@ class LinkedList {
         if(index > 0 && index > this.size){
             return;
         }
+        // edge case for if the node is the first and there is no last
+        if(index === 0){
+            this.insertFirstNode(data);
+            return;
+        }
+        //new node
+        let node = new Node(data);
+        let current, previous;
+        let count = 0;
 
+        current = this.head;// traversing from the first 
+
+        while(count < index){ // checking upto the specified index
+            previous = current;
+            count++;
+            current = current.next; //current becomes the equivalent of the specifies index
+        }
+        // inserting the node right in between
+        node.next = current;
+        previous.next = node;
+        this.size++
     }
 
-    // get at index
+    // get a specific value from an index 
+    getAtIndex(index){
+        let current;
+        let count = 0;
+        current = this.head;
+        if(index > this.size){
+            console.log('data is out of range');
+            return;
+        }
+        while(current){ // looping until current value
+            if(count === index){
+                console.log('data at index',current.data);
+            }
+            count = count + 1;
+            current = current.next; // switching to the next element
+        }
+    }
 
     // remove at index
+    removeAtIndex(index){
+        let count = 0;
+        let current, prev;
+
+        current = this.head;
+
+        if(index > this.size){
+            console.log('out of range');
+            return;
+        }
+        if(index === 0){
+            this.head = this.head.next; // setting the first elemnt to the next
+            return;
+        }
+
+        while(count < index){
+            count = count + 1;
+            prev = current;
+            current = current.next// current next adds up to the final element
+        }
+        prev.next = current.next;
+    }
 
     // clear list
+
 
     // print the list data
     printData (){
@@ -69,5 +128,10 @@ linkedList.insertFirstNode(100);
 linkedList.insertFirstNode(200);
 linkedList.insertFirstNode(300);
 linkedList.insertLast(400);
+linkedList.insertAt(350,2);
+
+linkedList.removeAtIndex(2);
+
+linkedList.getAtIndex(3);
 
 linkedList.printData();

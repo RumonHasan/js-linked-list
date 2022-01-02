@@ -1,0 +1,77 @@
+Script started on Sun Jan  2 19:24:53 2022
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+Node {
+  data: [33m200[39m,
+  next: Node { data: [33m350[39m, next: Node { data: [33m100[39m, next: [36m[Node][39m } }
+}
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+Node {
+  data: [33m200[39m,
+  next: Node { data: [33m350[39m, next: Node { data: [33m100[39m, next: [36m[Node][39m } }
+}
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnndoe s   n noede   de script[?2004l
+data at index [90mundefined[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnndoe scr     n node scrupt   ipt [?2004l
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnon  nnode script[?2004l
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+prev Node {
+  data: [33m200[39m,
+  next: Node { data: [33m350[39m, next: Node { data: [33m100[39m, next: [36m[Node][39m } }
+}
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+current Node {
+  data: [33m350[39m,
+  next: Node { data: [33m100[39m, next: Node { data: [33m400[39m, next: [1mnull[22m } }
+}
+data at index [33m100[39m
+[33m300[39m
+[33m200[39m
+[33m350[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004hnnode script[?2004l
+data at index [33m400[39m
+[33m300[39m
+[33m200[39m
+[33m100[39m
+[33m400[39m
+[1m[7m%[27m[1m[0m                                                                  [0m[27m[24m[Jrumonhasan@Mahmuduls-MacBook-Pro js-linked-list % [K[?2004h
